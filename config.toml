@@ -1,0 +1,113 @@
+# baseURL = "http://hoinkis.cz/"
+baseURL = "https://uruque-koloradova.netlify.com/"
+title = "Ulrike Hoinkis"
+
+languagecode = "de"
+defaultcontentlanguage = "de"
+
+[params]
+    author = "Ulrike Hoinkis"
+
+    hideCredits = true
+    hideCopyright = false
+    since = 2020
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 1
+    url = "https://www.linkedin.com/in/uilocalization"
+
+[[params.social]]
+    name = "Flickr"
+    icon = "fab fa-flickr fa-2x"
+    weight = 1
+    url = "https://www.flickr.com/photos/uruque"
+
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 1
+    url = "https://www.instagram.com/uruque.koloradova/"
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+
+    [languages.de.params]
+        author = "Ulrike Hoinkis"
+        info = "Diplom-Übersetzerin Deutsch, Tschechisch, Englisch"
+        footercontent = ""
+
+    [languages.de.menu]
+        [[languages.de.menu.main]]
+        name = "Dienstleistungen"
+        weight = 1
+        url = "/services/"
+        [[languages.de.menu.main]]
+        name = "Ferienwohnung"
+        weight = 4
+        url = "/appartment/"
+        [[languages.de.menu.main]]
+        name = "Preise"
+        weight = 2
+        url = "/fees/"
+        [[languages.de.menu.main]]
+        name = "Kontakt"
+        weight = 3
+        url = "/contact/"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+    [languages.en.params]
+      author = "Ulrike Hoinkis"
+      info = "Freelance Translator English, Czech, German"
+      footercontent = ""
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Services"
+        weight = 1
+        url = "/services/"
+      [[languages.en.menu.main]]
+        name = "Appartment"
+        weight = 2
+        url = "/appartment/"
+      [[languages.en.menu.main]]
+        name = "Fees"
+        weight = 3
+        url = "/fees/"
+      [[languages.en.menu.main]]
+        name = "Contact"
+        weight = 4
+        url = "/contact/"
+
+  [languages.cz]
+    languageName = "Čeština"
+    weight = 3
+
+    [languages.cz.params]
+      author = "Ulrike Hoinkis"
+      info = "..."
+      footercontent = ""
+
+    [languages.cz.menu]
+      [[languages.cz.menu.main]]
+        name = "?"
+        weight = 1
+        url = "/services/"
+      [[languages.cz.menu.main]]
+        name = "?"
+        weight = 2
+        url = "/translations/"
+      [[languages.cz.menu.main]]
+        name = "Ceny"
+        weight = 3
+        url = "/fees/"
+      [[languages.cz.menu.main]]
+        name = "Kontakt"
+        weight = 4
+        url = "/contact/"
