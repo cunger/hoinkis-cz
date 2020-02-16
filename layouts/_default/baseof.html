@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
-    {{ $cssOpts := (dict "targetPath" "css/coder.css" "outputStyle" "compressed" ) }}
-    {{ $styles := resources.Get "scss/coder.scss" | resources.ExecuteAsTemplate "style.coder.css" . | toCSS $cssOpts }}
-    <link rel="stylesheet" href="css/coder.min.css" />
+    <!-- {{ $cssOpts := (dict "targetPath" "css/coder.css" "outputStyle" "compressed") }} -->
+    <!-- {{ $styles := resources.Get "scss/coder.scss" | toCSS $cssOpts }} -->
+    <link rel="stylesheet" href="css/coder.css" />
 
     <link rel="icon" type="image/jpg" href="/images/favicon.ico">
 
