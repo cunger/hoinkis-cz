@@ -7,9 +7,6 @@ defaultcontentlanguage = "de"
 
 [params]
     author = "Ulrike Hoinkis"
-
-    hideCredits = true
-    hideCopyright = false
     since = 2020
 
 [[params.social]]
@@ -42,21 +39,21 @@ defaultcontentlanguage = "de"
 
     [languages.de.menu]
         [[languages.de.menu.main]]
-        name = "Dienstleistungen"
-        weight = 1
-        url = "/services/"
+          name = "Dienstleistungen"
+          weight = 1
+          url = "/services/"
         [[languages.de.menu.main]]
-        name = "Ferienwohnung"
-        weight = 4
-        url = "/appartment/"
+          name = "Preise"
+          weight = 2
+          url = "/fees/"
         [[languages.de.menu.main]]
-        name = "Preise"
-        weight = 2
-        url = "/fees/"
+          name = "Kontakt"
+          weight = 3
+          url = "/contact/"
         [[languages.de.menu.main]]
-        name = "Kontakt"
-        weight = 3
-        url = "/contact/"
+          name = "Ferienwohnung"
+          weight = 4
+          url = "/appartment/"
 
   [languages.en]
     languageName = "English"
@@ -73,17 +70,17 @@ defaultcontentlanguage = "de"
         weight = 1
         url = "/services/"
       [[languages.en.menu.main]]
-        name = "Appartment"
-        weight = 2
-        url = "/appartment/"
-      [[languages.en.menu.main]]
         name = "Fees"
-        weight = 3
+        weight = 2
         url = "/fees/"
       [[languages.en.menu.main]]
         name = "Contact"
-        weight = 4
+        weight = 3
         url = "/contact/"
+        [[languages.en.menu.main]]
+        name = "Appartment"
+        weight = 4
+        url = "/appartment/"
 
   [languages.cz]
     languageName = "Čeština"
@@ -96,18 +93,18 @@ defaultcontentlanguage = "de"
 
     [languages.cz.menu]
       [[languages.cz.menu.main]]
-        name = "?"
+        name = "Services"
         weight = 1
         url = "/services/"
       [[languages.cz.menu.main]]
-        name = "?"
-        weight = 2
-        url = "/translations/"
-      [[languages.cz.menu.main]]
         name = "Ceny"
-        weight = 3
+        weight = 2
         url = "/fees/"
       [[languages.cz.menu.main]]
         name = "Kontakt"
-        weight = 4
+        weight = 3
         url = "/contact/"
+      [[languages.cz.menu.main]]
+        name = "Appartment"
+        weight = 4
+        url = "/appartment/"

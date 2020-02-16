@@ -144,13 +144,23 @@ blockquote {
   font-style: italic;
 }
 
+#address {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
 table,
 tr,
 td {
   border: 0;
 }
-th, td {
-  padding: 0.6rem;
+tr.top {
+  padding-top: 0.2rem;
+}
+td {
+  padding-right: 60px;
 }
 
 img {
@@ -166,19 +176,19 @@ input,
 label {
   display: block;
   margin: 4px;
+  padding: 4px;
 }
 
 input {
-  border: 1px solid #eee;
-}
-/* mark required input fields more prominently than optional ones */
-input[required] {
-  border: 1px solid #000;
+  border: 1px solid #ccc;
 }
 /* mark the input field that is currently edited */
-input[type="text"]:focus {
-  background: #e5ff89;
+input:focus {
   color: #000;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
 }
 
 .wrapper {

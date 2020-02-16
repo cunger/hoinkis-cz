@@ -4,12 +4,12 @@ date: 2020-01-25
 draft: false
 ---
 
-Unternehmensnummer | IČ: 74248243
+{{< partial "contact/phone.de.html" >}}
 
-Telefon: 00420 608 08 44 53
+{{< partial "contact/addresses.de.html" >}}
 
-{{< partial "contact/form.html" >}}
+Oder schreiben Sie mich direkt an:
 
-{{< partial "contact/addresses.html" >}}
+{{< partial "contact/form.de.html" >}}
 
-{{< partial "contact/map.html" >}}
+<!-- {{< partial "contact/map.html" >}} -->
