@@ -6,10 +6,14 @@
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
-      {{ with .Site.Menus.main}}
+      {{ with .Site.Menus.main }}
         {{ range sort . }}
           <li class="navigation-item">
-            <a class="navigation-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            {{ if hasPrefix .URL "https://www.airbnb" }}
+              <a class="navigation-link" href="{{ .URL | absLangURL }}" target="_blank">{{ .Name }}</a>
+            {{ else }}
+              <a class="navigation-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            {{ end }}
           </li>
         {{ end }}
       {{ end }}

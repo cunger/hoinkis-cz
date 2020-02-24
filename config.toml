@@ -53,7 +53,7 @@ defaultcontentlanguage = "de"
         [[languages.de.menu.main]]
           name = "Ferienwohnung"
           weight = 4
-          url = "/appartment/"
+          url = "https://www.airbnb.de/rooms/23570036?_set_bev_on_new_domain=1582558689_MTk2MDM2OTVhMDk0&source_impression_id=p3_1582558691_Nd3S7BW1IVfThfVR"
 
   [languages.en]
     languageName = "English"
@@ -77,10 +77,10 @@ defaultcontentlanguage = "de"
         name = "Contact"
         weight = 3
         url = "/contact/"
-        [[languages.en.menu.main]]
+      [[languages.en.menu.main]]
         name = "Appartment"
         weight = 4
-        url = "/appartment/"
+        url = "https://www.airbnb.com/rooms/23570036?_set_bev_on_new_domain=1582558689_MTk2MDM2OTVhMDk0&source_impression_id=p3_1582558691_Nd3S7BW1IVfThfVR&locale=en"
 
   [languages.cz]
     languageName = "Čeština"
@@ -107,4 +107,4 @@ defaultcontentlanguage = "de"
       [[languages.cz.menu.main]]
         name = "Appartment"
         weight = 4
-        url = "/appartment/"
+        url = "https://www.airbnb.com/rooms/23570036?_set_bev_on_new_domain=1582558689_MTk2MDM2OTVhMDk0&source_impression_id=p3_1582558691_Nd3S7BW1IVfThfVR&locale=cz"
