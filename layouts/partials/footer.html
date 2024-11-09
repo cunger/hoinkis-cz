@@ -1,9 +1,0 @@
-<footer class="footer">
-  <section class="container">
-    {{ with .Site.Params.footercontent | safeHTML }}
-      <p>{{.}}</p>
-    {{ end }}
-    © {{ now.Year }}
-    {{ if .Site.Params.Author }} {{ .Site.Params.Author }} {{ end }}
-  </section>
-</footer>
